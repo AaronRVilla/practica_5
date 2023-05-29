@@ -1,0 +1,12 @@
+.contenedor{
+    background-color: green;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.contenedor div{
+    background-color: yellow;
+    text-align: center;
+    color: black;
+    border: 3px solid black;
+}
