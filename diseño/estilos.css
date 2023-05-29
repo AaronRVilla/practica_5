@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+}
+
 .contenedor{
     background-color: green;
     display: grid;
@@ -9,10 +13,13 @@
 #item1{
     grid-area: header;
     background-color: yellow;
+    height: 200px;
+    text-align: center;
 }
 #item2{
     grid-area: aside;
     background-color: lightblue;
+    height: 230px;
 }
 #item3{
     grid-area: body;
@@ -25,4 +32,5 @@
 #item5{
     grid-area: footer;
     background-color: purple;
+    height: 200px;
 }
