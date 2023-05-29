@@ -1,12 +1,28 @@
 .contenedor{
     background-color: green;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-areas: 'header header header'
+    'aside body aside2'
+    'footer footer footer';
 }
 
-.contenedor div{
+#item1{
+    grid-area: header;
     background-color: yellow;
-    text-align: center;
-    color: black;
-    border: 3px solid black;
+}
+#item2{
+    grid-area: aside;
+    background-color: lightblue;
+}
+#item3{
+    grid-area: body;
+    background-color: lime;
+}
+#item4{
+    grid-area: aside2;
+    background-color: violet;
+}
+#item5{
+    grid-area: footer;
+    background-color: purple;
 }
